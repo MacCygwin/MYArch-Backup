@@ -18,6 +18,8 @@ Move files according to location
 Edit appearance settings:
 - nwg-look
 * lxappearance
-+ qt5ct & qt6ct(if can)
++ qt5ct & qt6ct
+
+Launch Hyprland
 
 Profit!  
