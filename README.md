@@ -13,6 +13,8 @@ Clone this repo:
 git clone https://github.com/MacCygwin/MYhypr/
 ```
 
+Unzip any folders(github restrictions)
+
 Move files according to location
 
 Edit appearance settings:
