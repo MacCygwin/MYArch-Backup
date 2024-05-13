@@ -17,6 +17,8 @@ Unzip any folders(github restrictions)
 
 Move files according to location
 
+Install Catppuccin Macchiato themes
+
 Edit appearance settings:
 - nwg-look
 * lxappearance
