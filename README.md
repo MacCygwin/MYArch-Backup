@@ -18,6 +18,8 @@ Unzip any folders(github restrictions)
 
 Move files according to location
 
+Comment the exec-once for hyprctl cursor in hyprland.conf
+
 Install Catppuccin Macchiato themes(Main, Icons, Cursor(Lavender))
 
 Edit appearance settings:
@@ -28,3 +30,5 @@ Edit appearance settings:
 Launch Hyprland
 
 Profit!  
+
+Remember to uncomment hyprctl cursor
