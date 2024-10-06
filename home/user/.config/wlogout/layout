@@ -12,13 +12,13 @@
 }
 {
     "label" : "logout",
-    "action" : "sleep 1; hyprctl dispatch exit",
+    "action" : "mpv --no-video ~/Music/shutdown.mp3; sleep 1; hyprctl dispatch exit",
     "text" : "Logout",
     "keybind" : "e"
 }
 {
     "label" : "shutdown",
-    "action" : "systemctl poweroff",
+    "action" : "mpv --no-video ~/Music/shutdown.mp3; systemctl poweroff",
     "text" : "Shutdown",
     "keybind" : "s"
 }
@@ -30,7 +30,7 @@
 }
 {
     "label" : "reboot",
-    "action" : "systemctl reboot",
+    "action" : "mpv --no-video ~/Music/shutdown.mp3; systemctl reboot",
     "text" : "Reboot",
     "keybind" : "r"
 }
