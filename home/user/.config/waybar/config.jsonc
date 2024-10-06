@@ -8,9 +8,9 @@
     // Choose the order of the modules
     "modules-left": [
         "custom/applauncher",
-        "clock",
         "cpu",
-        "memory"
+        "memory",
+        "clock"
     ],
     "modules-center": [
         "hyprland/workspaces"
@@ -102,9 +102,9 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
+        "timezone": "Asia/Singapore",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%d-%m-%Y}"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -169,7 +169,7 @@
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
         "format-bluetooth-muted": " {icon}",
-        "format-muted": "", 
+        "format-muted": "",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -179,7 +179,7 @@
             "car": "",
             "default": ["", "", " "]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pwvucontrol"
     },
     "custom/power": {
         "format": "⏻",
