@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background-color: rgba(24, 25, 59, 0.91);
+    background-color: rgba(59, 96, 127, 0);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -48,7 +48,7 @@ button:hover {
 }
 
 /* you can set a style on hover for any module like this */
-  
+
 #workspaces button {
     padding: 0 5px;
     background-color: rgba(110, 115, 141, 0.18);
@@ -112,18 +112,18 @@ button:hover {
 
 #clock {
     border-radius: 15px;
-    background-color: rgba(110, 115, 141, 0.18);
+    background-color: #02143e;
 }
 
 #battery {
     border-radius: 15px;
-    background-color: rgba(110, 115, 141, 0.18);
+    background-color: #02143e;
     color: #91d7e3;
 }
 
 #battery.charging, #battery.plugged {
     color: #2ecc71;
-    background-color: rgba(110, 115, 141, 0.18);
+    background-color: #02143e;
 }
 
 @keyframes blink {
@@ -345,7 +345,7 @@ label:focus {
 #custom-applauncher {
     padding-right: 11px;
     padding-left: 11px;
-    color: #8aadf4;  
+    color: #8aadf4;
     border-radius: 15px;
     background-color: rgba(110, 115, 141, 0.18);
 }
