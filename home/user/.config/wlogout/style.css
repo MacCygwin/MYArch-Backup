@@ -4,7 +4,7 @@
 }
 
 window {
-	background-color: rgba(54, 58, 79, 0.9);
+	background-color: rgba(54, 58, 79, 0.7);
 }
 
 button {
@@ -12,7 +12,7 @@ button {
     border-color: black;
 	text-decoration-color: #FFFFFF;
     color: #FFFFFF;
-	background-color: rgba(125, 196, 228, 0.3);
+	background-color: rgba(245, 169, 127,0.5);
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
@@ -22,7 +22,7 @@ button {
 
 
 button:focus, button:active, button:hover {
-	background-color: #7dc4e4;
+	background-color: rgba(183, 189, 248,0.9);
 	outline-style: none;
 }
 
